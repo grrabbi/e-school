@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #21B573;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #F0FFF0;
+    padding: 32px 0;
+}
+
+a.nav-link.ms-sm-4 {
+    color: black;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    transition-duration: 0.5s;
+
+}
+
+.custom_btn,
+a.nav-link.ms-sm-4:hover {
+    border-radius: 50px;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+.bannerContent {}
+
+.bannerContent h5 {
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bannerContent h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.bannerContent h1 span {
+    color: var(--primary-color);
+}
+
+.bannerContent p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+.bannerContent a {}
+
+.bannerImg {}
+
+.Course_section img {
+    max-width: 100%;
+    width: 66px;
+}
+
+.Course_section {
+    color: #F8FFFB;
+}
+
+.Course_section img {}
+
+.Course_section h3 {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+
+.Course_section P {
+    color: #585859;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.online_course_section {}
+
+.online_course_section img {
+    width: 100%;
+    height: 234px;
+    border-radius: 11px;
+}
+
+.online_course_section h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 10px 0px 0px;
+    color: #413960;
+}
+
+.online_course_section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+.online_course_section h2 {
+    color: #413960;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.online-date {}
+
+.online-date img {
+    width: 24px;
+    height: 24px;
+}
+
+.online-date span {}
+
+
+.col-lg-3.col-md-3.text-sm-center.text-lg-start.text-md-start {
+    text-align: center;
+}
+
+.profile h2 {
+    font-weight: 700;
+}
+
+.profile_img img {
+    width: 120px;
+}
+
+.profile p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footerbar{
+    background-color: #282531;
+
+    height: 369px;
+}
+.footerbar h6{
+    padding: 0px 87px;
+}
+
+.footer-color-menu a{
+    color: #ffff;
+    text-decoration: none;
+}
+.footer-color{
+    background-color: #282531;
+    height: 50px;
+}
+.footer-color p{
+    color: #CDCDCD;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+@media (max-width:991px) {
+    .bannerContent h5 {
+        font-size: 14px;
+
+    }
+
+    .bannerContent h1 {
+        font-size: 38px;
+    }
+    .footerbar h6{
+        padding: 0px 87px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .bannerContent {
+        text-align: center;
+        padding: 40px 0;
+    }
+    .footerbar h6{
+        padding: 0px 87px;
+    }
+
+}
+
+@media (max-width:575px) {
+    .online_course_section {
+
+        justify-content: center;
+        text-align: center;
+    }
+    .col-md-6.col-sm-10.align-content-center {
+        text-align: center;
+    }
+    
+    .col-md-3.col-sm-3.text-sm-center.text-md-end.profile_img {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .mobile{
+        display: none;
+
+    }
+    .footerbar h6{
+        padding: 0px 20px;
+    }
+
+}
